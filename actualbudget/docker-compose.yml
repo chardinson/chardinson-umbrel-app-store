@@ -14,7 +14,7 @@ services:
     user: "1000:1000"
     environment:
       - ACTUAL_PORT=5006
-      - ACTUAL_TRUSTED_PROXIES=umbrel.local,umbrel, 
+      - ACTUAL_TRUSTED_PROXIES=10.0.0.0/8
     volumes:
       - ${APP_DATA_DIR}/data:/data
     restart: on-failure
