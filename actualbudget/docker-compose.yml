@@ -11,6 +11,5 @@ services:
   web:
     image: docker.io/actualbudget/actual-server:latest
     user: "1000:1000"
-    init: true
     volumes:
       - ${APP_DATA_DIR}/data:/data
