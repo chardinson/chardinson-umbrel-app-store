@@ -1,15 +1,17 @@
 manifestVersion: 1
 id: actualbudget
 name: Actual Budget
-tagline: Replace this tagline with your app's tagline
+icon: https://raw.githubusercontent.com/actualbudget/actual/refs/heads/master/packages/desktop-electron/icons/icon.png
+tagline: Local-first personal finance and budgeting
 category: Finance
 version: "1.0.0"
 port: 5006
 description: >-
-  Add your app's description here.
+  Actual Budget is a local-first personal finance tool.
+  It has a synchronization feature so all your changes can move between devices without any heavy cloud.
 
 
-  You can also add newlines!
+  You can also use it completely offline — your data is yours.
 
 developer: Actual Core Contributors
 website: https://actualbudget.org/
@@ -22,7 +24,7 @@ gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Initial release of Actual Budget for Umbrel.
 dependencies: []
 path: ""
 defaultUsername: ""
